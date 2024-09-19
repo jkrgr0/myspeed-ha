@@ -1,0 +1,79 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "If you need help with the configuration have a look here: https://github.com/jkrgr0/myspeed-ha",
+                "data": {
+                    "api_key": "API Key",
+                    "hostname": "Hostname or IP address",
+                    "port": "Port",
+                    "use_http": "Use HTTP instead of HTTPS"
+                }
+            }
+        },
+        "error": {
+            "auth": "API Key is wrong.",
+            "connection": "Unable to connect to the server.",
+            "unknown": "Unknown error occurred."
+        }
+    },
+    "entity": {
+        "button": {
+            "run_speedtest": {
+                "name": "Run Speedtest"
+            }
+        },
+        "switch": {
+            "speedtests": {
+                "name": "Speedtests"
+            }
+        },
+        "sensor": {
+            "total_tests": {
+                "name": "Total tests"
+            },
+            "failed_tests": {
+                "name": "Failed tests"
+            },
+            "custom_tests": {
+                "name": "Custom tests"
+            },
+            "min_ping": {
+                "name": "Min ping"
+            },
+            "max_ping": {
+                "name": "Max ping"
+            },
+            "avg_ping": {
+                "name": "Average ping"
+            },
+            "min_upload": {
+                "name": "Min upload"
+            },
+            "max_upload": {
+                "name": "Max upload"
+            },
+            "avg_upload": {
+                "name": "Average upload"
+            },
+            "min_download": {
+                "name": "Min download"
+            },
+            "max_download": {
+                "name": "Max download"
+            },
+            "avg_download": {
+                "name": "Average download"
+            },
+            "min_time": {
+                "name": "Min time"
+            },
+            "max_time": {
+                "name": "Max time"
+            },
+            "avg_time": {
+                "name": "Average time"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "myspeed",
+  "name": "MySpeed",
+  "codeowners": [
+    "@ludeeus"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/jkrgr0/myspeed-ha",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/jkrgr0/myspeed-ha/issues",
+  "version": "0.0.0"
+}

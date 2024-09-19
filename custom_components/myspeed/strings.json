@@ -1,0 +1,27 @@
+{
+    "entity": {
+        "button": {
+            "run_speedtest": "Run Speedtest"
+        },
+        "switch": {
+            "speedtests": "Speedtests"
+        },
+        "sensor": {
+            "total_tests": "Total tests",
+            "failed_tests": "Failed tests",
+            "custom_tests": "Custom tests",
+            "min_ping": "Min ping",
+            "max_ping": "Max ping",
+            "avg_ping": "Average ping",
+            "min_upload": "Min upload",
+            "max_upload": "Max upload",
+            "avg_upload": "Average upload",
+            "min_download": "Min download",
+            "max_download": "Max download",
+            "avg_download": "Average download",
+            "min_time": "Min time",
+            "max_time": "Max time",
+            "avg_time": "Average time"
+        }
+    }
+}
